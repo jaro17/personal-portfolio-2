@@ -1,0 +1,43 @@
+.section-about {
+  padding-top: 6rem;
+
+  p {
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+  }
+
+  .button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border-radius: 28px;
+    text-decoration: none;
+    padding: 8px 20px;
+
+    &:hover {
+      opacity: 0.8;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &.primary {
+      background-color: #bac964;
+    }
+
+    &.secondary {
+      background-color: #6c757d;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .section-about {
+    .button {
+      padding: 5px 10px;
+      font-size: x-small;
+      letter-spacing: 0;
+    }
+  }
+
+
+}

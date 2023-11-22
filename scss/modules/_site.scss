@@ -1,0 +1,78 @@
+.testimonial {
+  .img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .block {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 1rem;
+      width: 0;
+      left: 4rem;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 20px 10px 0;
+      border-color: transparent #333 transparent transparent;
+    }
+
+
+    .block-quote {
+      background-color: #333;
+      color: rgba(255, 255, 255, 0.3);
+      max-width: 80%;
+      padding: 2rem;
+      margin-left: 2rem;
+    }
+  }
+
+  cite {
+    a {
+      color: #bac964;
+      text-decoration: none;
+    }
+  }
+}
+
+.services {
+  .service-item {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    .icon {
+      position: relative;
+      color: white;
+      height: 3rem;
+      width: 3rem;
+      //z-index: 1;
+      //border-radius: 50%;
+
+      &::before {
+        content: "";
+        top: -0.5rem;
+        left: -0.5rem;
+        right: -0.5rem;
+        bottom: -0.5rem;
+        position: absolute;
+        background-color: #bac964;
+        padding: 3rem;
+        //height: 3rem;
+        //width: 3rem;
+        border-radius: 50%;
+        //transform: translate(-50%, -50%);
+        //z-index: -1;
+      }
+
+    }
+
+    p {
+      margin-top: 2rem
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.container {
+  .section-heading h2{
+    margin-top: 5rem;
+  }
+
+  .filters {
+    ul {
+      li {
+        color: #f8f9fa;
+        margin: 0 1rem;
+        list-style: none;
+        cursor: pointer;
+
+        &:hover {
+          color: #bac964
+        }
+      }
+    }
+  }
+}
