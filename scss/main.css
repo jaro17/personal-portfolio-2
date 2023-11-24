@@ -1,21 +1,13 @@
 .navbar {
   background: #fff;
   z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-content: center;
+  justify-content: center;
 }
 .navbar .navbar-menu {
-  -webkit-box-flex: initial;
-      -ms-flex-positive: initial;
-          flex-grow: initial;
-  -ms-flex-negative: initial;
-      flex-shrink: initial;
+  flex-grow: initial;
+  flex-shrink: initial;
 }
 .navbar .navbar-toggler {
   color: #fff;
@@ -111,7 +103,6 @@
 }
 .section-about .button:hover {
   opacity: 0.8;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .section-about .button.primary {
@@ -182,10 +173,14 @@
   padding: 3rem;
   border-radius: 50%;
 }
+.services .service-item .site-link {
+  color: #bac964;
+  text-decoration: none;
+}
 .services .service-item p {
   margin-top: 2rem;
 }
 
 * {
   font-family: "Lato", sans-serif;
-}
+}/*# sourceMappingURL=main.css.map */

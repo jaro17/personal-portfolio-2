@@ -38,6 +38,7 @@
 }
 
 .services {
+
   .service-item {
     background-color: #333;
     color: rgba(255, 255, 255, 0.3);
@@ -69,6 +70,11 @@
         //z-index: -1;
       }
 
+    }
+
+    .site-link {
+      color: #bac964;
+      text-decoration: none;
     }
 
     p {
