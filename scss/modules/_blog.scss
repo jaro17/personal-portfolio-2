@@ -1,0 +1,45 @@
+.blog {
+ .container {
+  max-width: 85%;
+ }
+
+  .blog-entry-text,
+  .text {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .blog-entry {
+    background-color: #333;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    a img {
+      width: 100%;
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+    
+
+      a {
+        color: rgba(255, 255, 255, 0.4);
+        text-decoration: none;
+
+        &:hover {
+          color: #bac964;
+        }
+      }
+
+      .text {
+        color: rgba(255, 255, 255, 0.4);
+
+        &:hover {
+          color: #bac964;
+        }
+      }
+    }
+
+    
+  }
+}
