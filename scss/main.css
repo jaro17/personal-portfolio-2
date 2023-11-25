@@ -25,8 +25,9 @@
 
 .site-hero {
   height: 100vh;
-  background: url(images/image_1.jpg) no-repeat center center;
+  background: url(../images/image_1.jpg) no-repeat center center;
   background-size: cover;
+  position: relative;
 }
 .site-hero .container {
   z-index: 2;
@@ -161,17 +162,10 @@
   color: white;
   height: 3rem;
   width: 3rem;
+  color: #bac964;
 }
-.services .service-item .icon::before {
-  content: "";
-  top: -0.5rem;
-  left: -0.5rem;
-  right: -0.5rem;
-  bottom: -0.5rem;
-  position: absolute;
-  background-color: #bac964;
-  padding: 3rem;
-  border-radius: 50%;
+.services .service-item .icon-chevron {
+  color: #bac964;
 }
 .services .service-item .site-link {
   color: #bac964;
@@ -181,6 +175,11 @@
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .service-item {
+    margin-top: 2rem;
+  }
+}
 * {
   font-family: "Lato", sans-serif;
 }/*# sourceMappingURL=main.css.map */
